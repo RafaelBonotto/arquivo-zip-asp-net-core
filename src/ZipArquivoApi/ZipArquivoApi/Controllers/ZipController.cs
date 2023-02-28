@@ -7,5 +7,10 @@ namespace ZipArquivoApi.Controllers
     [ApiController]
     public class ZipController : ControllerBase
     {
+        [HttpGet]
+        public async Task<IActionResult> GetZipDocumentos()
+        {
+            return Ok();
+        }
     }
 }
